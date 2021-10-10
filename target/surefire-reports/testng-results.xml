@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-10T08:02:57 IST" name="Suite" finished-at="2021-10-10T08:03:18 IST" duration-ms="20560">
+    <groups>
+    </groups>
+    <test started-at="2021-10-10T08:02:57 IST" name="Test" finished-at="2021-10-10T08:03:18 IST" duration-ms="20560">
+      <class name="com.qa.TestcaseExecution.Component">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.qa.TestcaseExecution.Component@3c22fc4c]" started-at="2021-10-10T08:02:54 IST" name="beforeSuite" finished-at="2021-10-10T08:02:57 IST" duration-ms="3319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.TestcaseExecution.Component@3c22fc4c]" started-at="2021-10-10T08:02:57 IST" name="beforeTest" finished-at="2021-10-10T08:03:00 IST" duration-ms="3026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GER_RM_REG_16328]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test Id-2170 FRR 4021: To verify Registered Company Number text box field is displayed in the Contact Information panel of RM_ZAF_REGISTRATION page when user selects the customer type radio button as "Corporate" and verify registration got success]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[RM-SOUTHAFRICA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SERIAL]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Serial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="runTestComponents(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.TestcaseExecution.Component@3c22fc4c]" started-at="2021-10-10T08:03:00 IST" name="runTestComponents" finished-at="2021-10-10T08:03:18 IST" duration-ms="17195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GER_RM_REG_16328]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[./TestDataDriven/GER_RM_REG_16328.xls]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Serial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestComponents -->
+        <test-method is-config="true" signature="AfterTest(java.lang.String)[pri:0, instance:com.qa.TestcaseExecution.Component@3c22fc4c]" started-at="2021-10-10T08:03:18 IST" name="AfterTest" finished-at="2021-10-10T08:03:18 IST" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Serial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.qa.TestcaseExecution.Component@3c22fc4c]" started-at="2021-10-10T08:03:18 IST" name="AfterSuite" finished-at="2021-10-10T08:03:23 IST" duration-ms="5141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- com.qa.TestcaseExecution.Component -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

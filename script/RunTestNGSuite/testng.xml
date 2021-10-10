@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="suiteType" value="Serial"/>
+  <test name="Test">
+  <parameter name="testname" value="GER_RM_REG_16328"/>
+	<parameter name="testdesc" value="Test Id-2170 FRR 4021: To verify Registered Company Number text box field is displayed in the Contact Information panel of RM_ZAF_REGISTRATION page when user selects the customer type radio button as &quot;Corporate&quot; and verify registration got success"/>
+	<parameter name="testCategory" value="RM-SOUTHAFRICA"/>
+	<parameter name="Author" value="SERIAL"/>
+	<parameter name="testdatasheet" value="./TestDataDriven/GER_RM_REG_16328.xls"/>
+    <classes>
+      <class name="com.qa.TestcaseExecution.Component">
+      <methods>
+		<include name="runTestComponents"/>
+	  </methods>
+	  </class>
+    </classes>	
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
